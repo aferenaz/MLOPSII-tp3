@@ -1,7 +1,5 @@
 ## Mini-TP 3 — Servir el modelo por gRPC
 
-Notebook: [`mini-tp3/mini_tp3_colab_Ferenaz.ipynb`](mini-tp3/mini_tp3_colab_Ferenaz.ipynb)
-
 Expuse mi modelo de la Sesión 1 (`gout-demanda-rf` v1.0.0, forecasting de demanda de Gout) como
 servicio gRPC: `scoring.proto` con un campo tipado por cada una de las 11 features, un método unary
 (`Predict`), uno de server-streaming (`PredictLote`) y un `Health`. El servidor carga el modelo una
